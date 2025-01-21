@@ -1,0 +1,29 @@
+{
+  "patients": [],
+  "personnel": [],
+  "rendez_vous": [],
+  "services": [],
+  "pharmacie": {
+    "medicaments": [
+      {
+        "id": 1,
+        "nom": "Paracetamol",
+        "description": "soulagement du mal de tete",
+        "stock": 8973,
+        "seuil_alerte": 50,
+        "date_peremption": "21/01/2025"
+      }
+    ]
+  },
+  "factures": [
+    {
+      "id": 1,
+      "patient_id": 1,
+      "prestations": [],
+      "total": -0.0,
+      "date_emission": "21/01/2025",
+      "statut": "Payee"
+    }
+  ],
+  "utilisateurs": []
+}
